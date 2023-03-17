@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html {-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%; font-family: 'Noto Sans KR', sans-serif;}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary { display: block;}
+audio,canvas,progress,video {display: inline-block;vertical-align: baseline;}
+audio:not([controls]) {display: none;height: 0}
+[hidden],template {display: none}
+body { font-size: 16px }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-spacing: 0; }
+a, a:hover, a:active, a:focus { color:none; text-decoration: none;  /*-webkit-transition: all 0.4s ease; transition: all 0.4s ease;*/}
+a:active,a:hover {outline: 0}
+abbr[title] {border-bottom: 1px dotted}
+em, address { font-style: normal;}
+b,strong {font-weight: bold}
+small {font-size: 80%}
+img {border: 0; vertical-align: top }
+hr {box-sizing: content-box;height: 0}
+pre {overflow: auto}
+button { cursor: pointer;overflow: visible}
+button,input,optgroup,select,textarea {color: inherit; font: inherit;margin: 0;}
+button,select {text-transform: none}
+
+.app {padding:20px;}

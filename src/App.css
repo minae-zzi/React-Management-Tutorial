@@ -1,0 +1,75 @@
+.App {
+  text-align: left;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header {position: relative; height:56px; padding:5.6%; border-bottom:1px solid #e6e6e6;}
+header span { position: absolute; width:24px; height:24px; right:20px; top:16px;}
+header h1 {width: 50px; height: 18px; position: absolute; left:20px; top:20px;}
+header p { text-align: center; font-size:14px; color:#130f26; font-weight: 600; vertical-align: middle; line-height:16px; margin-top:-5px;}
+
+.login_img {text-align: center; padding-top:15%; padding-bottom:6.9%;}
+.login_img h2 { font-family: "Noto Sans KR";
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: 400;
+  line-height: 1.4;
+  letter-spacing: -1.1px;
+  color: #130f26;
+	padding-bottom:6.3%;
+}
+
+.login_img p.intro_img {width: 260px; height: 145px;}
+
+.login_form {padding:0 5.6%;}
+.login_form input.login_input {
+  height: 50px;
+  width:100%;
+  padding: 0 0 0 14px;
+  border-radius: 10px;
+  color:#222;
+	border:none;
+  background-color: #EEF2F8;
+font-size:12px; margin-bottom:8px;}
+
+.login_bt {width:100%; text-align: center; color:#fff; font-size:18px; background:#1d5da9; letter-spacing: -1.1px; font-weight: 600; border-radius: 10px;padding:16px 0px;}
+.login_bt a {color:#fff; }
+.login_info {margin-top:15px; padding:0 5.6%; font-size:12px; line-height: 1.4;
+  letter-spacing: -0.6px;
+  text-align: left;
+  color: #727272; word-break:keep-all;}
